@@ -1,0 +1,129 @@
+p {
+    color:rgb(0, 162, 255);
+}
+
+#avatar {
+    margin: 5;
+    padding: 5;
+    background: cadetblue;
+}
+
+#first-title {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    background-color: cadetblue;
+}
+
+#name {
+    text-align: center;
+    color: #473636;
+    background-color: rgb(160, 239, 241);
+}
+
+#motto {
+    text-align: center;
+    color: #fff;
+    background-color: cadetblue;
+}
+
+#motto span {
+
+    font-weight: bold;
+}
+
+.favorite {
+
+    font-weight: bold; 
+    color: cyan"
+}
+
+#top-menu-bar {
+
+    text-align: center;
+    background-color: cadetblue;
+    color: #fff;
+}
+
+#top-menu-bar li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu-bar a {
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    color: #fff;
+    
+}
+
+#top-menu-bar a:visited {
+    color: #fff;
+}
+
+
+
+html {
+    height: 100%;
+    background-color: rgb(160, 239, 241);
+}
+body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#main {
+    flex: 3;
+
+    
+}
+
+#footer {
+    min-height: 24px;
+}
+
+#form {
+    text-align: center;
+}
+
+#side-menu {
+    flex: 2;
+}
+
+.page {
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    
+    box-shadow: 0 4px 8px rgb(151 127 200 / 9%)
+
+   
+}
+
+.page h2 {
+    margin-top: 0;
+}
+
+#header-wrapper {
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+#avatar {
+    margin: 0;
+    margin-bottom: 0;
+}
+
