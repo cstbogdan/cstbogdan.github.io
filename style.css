@@ -58,14 +58,22 @@ p {
     
 }
 
-
+#top-menu-bar a:hover {
+    color: cadetblue;
+    background: #85eaf7;
+    
+}
 
 #top-menu-bar a:visited {
     color: #fff;
    
 }
 
-
+a.active {
+  
+    color: cadetblue;
+    background: yellow;
+}
 
 html {
     height: 100%;
