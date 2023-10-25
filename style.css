@@ -54,12 +54,15 @@ p {
 #top-menu-bar a {
     text-decoration: none;
     padding: 0 15px 0 15px;
-    color: #fff;
+    color: #fff;   
     
 }
 
+
+
 #top-menu-bar a:visited {
     color: #fff;
+   
 }
 
 
@@ -83,6 +86,7 @@ body {
 
 #main {
     flex: 3;
+    
 
     
 }
@@ -103,7 +107,7 @@ body {
     display: none;
     margin-bottom: 1.6rem;
     padding: 1.6rem;
-    background-color: #fff;
+    background-color: rgb(167, 252, 255);
     border-radius: 0.5rem;
     border: 1px solid grey;
     
