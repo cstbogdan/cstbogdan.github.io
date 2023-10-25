@@ -6,7 +6,10 @@ function hidePage (id) {
 
 function showPage (id) {
   console.warn("show",id);
-  document.getElementById(id).style.display ="block";
+   document.getElementById(id).style.display ="block";
+
+  
+
 }
 
 function hideAllPages(id) {
