@@ -103,3 +103,26 @@ showPage("Projects");
 }
 
 showProjectsPage();
+
+function displaySkills() {
+  console.info("display Skills")
+
+  for (var i = 1; i< 11; i++) {
+
+  }
+
+  var ul = document.querySelector("#Skills ul");
+  var Skills = ["html" ,"css" ,"js"];
+  console.info(ul);
+
+  for (var i = 0; i< 3; i++) {
+    
+    
+    ul.innerHTML +=`<li> ${Skills[i]} </li>`;
+    
+
+  }
+}
+
+displaySkills();
+
