@@ -112,12 +112,12 @@ function display(Skills) {
      return b.endorcements - a.endorcements;
 
   });
-  console.info(skills);
+  console.info(Skills);
   for (var i = 0; i< Skills.length; i++) {
 
      ul.innerHTML += `<li>${Skills[i].name} - ${Skills[i].endorcements}</li>`;
 
-  }
+  }  
 }
 
 function loadSkills() {
