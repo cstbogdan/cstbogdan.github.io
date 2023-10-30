@@ -104,25 +104,44 @@ showPage("Projects");
 
 showProjectsPage();
 
-function displaySkills() {
-  console.info("display Skills")
-
-  for (var i = 1; i< 11; i++) {
-
-  }
+function display(Skills) {
 
   var ul = document.querySelector("#Skills ul");
-  var Skills = ["html" ,"css" ,"js"];
-  console.info(ul);
+  Skills.sort(function (a, b) {
 
-  for (var i = 0; i< 3; i++) {
-    
-    
-    ul.innerHTML +=`<li> ${Skills[i]} </li>`;
-    
+     return b.endorcements - a.endorcements;
+
+  });
+  console.info(skills);
+  for (var i = 0; i< Skills.length; i++) {
+
+     ul.innerHTML += `<li>${Skills[i].name} - ${Skills[i].endorcements}</li>`;
 
   }
 }
 
-displaySkills();
+function loadSkills() {
+  fetch("Skills.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (serverSkills) {
+    displaySkills(serverSkills);
+  });
+  
+}
 
+loadSkills();
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+
+}
