@@ -124,6 +124,9 @@ function loadSkills() {
   fetch("Skills.json")
   .then(function (response) {
     return response.json();
+  
+ 
+  
   })
   .then(function (serverSkills) {
     display(Skills);
@@ -134,8 +137,9 @@ function loadSkills() {
 loadSkills();
   
 
-  
-
+apiFetch( { mode: 'no-cors', url: 'https://cstbogdan.github.io/?q=' + attributes.search_string } ).then( ( posts ) => {
+                console.log( posts );
+            } );
 
   
   
