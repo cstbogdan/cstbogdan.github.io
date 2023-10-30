@@ -126,14 +126,14 @@ function loadSkills() {
     return response.json();
   })
   .then(function (serverSkills) {
-    displaySkills(serverSkills);
+    display(Skills);
   });
   
 }
 
 loadSkills();
   
-  
+
   
 
 
