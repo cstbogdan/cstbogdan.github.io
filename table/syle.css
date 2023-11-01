@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-spacing: 10px;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+.title {
+    text-align: center;
+    background-color: bisque;
+    padding: auto;
+}
+
+#table-footer {
+    border-radius: 1px;
+    text-align: center;
+    outline: 1px;
+    border-style: solid;
+}
